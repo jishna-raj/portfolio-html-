@@ -1,0 +1,123 @@
+
+*{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+    width: 100px;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;/* space between child elements */
+    margin-left: 100px;
+    align-items: center;/* to place child element vertically center */
+
+}
+#logo{
+    width: 120px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 10px 30px;
+}
+.link{
+    text-decoration: none;/*  */
+    color: black;
+    font-weight: 800;
+    font-size:21px ;
+}
+.link:hover{
+    color: red;
+}
+
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+
+}
+.title h1{
+    font-size: medium;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+#lastname{
+    color: orange;
+}
+.title a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.imggroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50);
+    transition:bottom 1s,left 2s;
+
+}
+.images:hover #shape{
+    bottom: 70px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin: 13% 8% opx 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+    font-weight: 600px;
+    color: green;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, yellow,rgb(255, 123, 0));
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon i{
+    color: white
+    ;
+}
